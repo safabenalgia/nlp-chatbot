@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: left;
+    color: #333333;
+}
+
+#chat-container {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+    max-height: 300px;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.user-message {
+    text-align: right;
+}
+
+.chatbot-message {
+    text-align: left;
+}
+
+.message-content {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.user-message .message-content {
+    background-color: #e2f0cb;
+}
+
+.chatbot-message .message-content {
+    background-color: #d2d2d2;
+}
+
+#user-input-form {
+    position: fixed; /* Fixe le formulaire en bas */
+    bottom: 0;       /* Aligné au bas de la fenêtre */
+    left: 0;         /* Aligné à gauche */
+    width: 100%;     /* Prend toute la largeur */
+    background-color: #f5f5f5; /* Couleur de fond optionnelle */
+    z-index: 1000;   /* S'assure qu'il est au-dessus des autres éléments */
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.send-button {
+    width: 15%;
+    padding: 10px;
+    background-color: #ef1d89;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.fa-paper-plane {
+    font-size: 20px;
+}
+
+.fa-paper-plane:hover {
+    background-color: #29487D;
+}
+
+.box {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+    max-height: 300px;
+}
