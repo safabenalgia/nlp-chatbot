@@ -17,7 +17,7 @@ with open('dataset/intents1.json', 'r') as f:
     intents = json.load(f)
 
 
-co = cohere.Client("zoxarokyuQwyALjQENCHixQ8HTxwppACs8qFmMdG")
+co = cohere.Client("api_key")
 def get_response_from_cohere(prompt):
     try:
         response = co.generate(
